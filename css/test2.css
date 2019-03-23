@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#big{
+    width: 400px;
+    height: 180px;
+    border: 1px solid #e5e5e5;
+}
+p{
+    float: left;
+    height: 25px;
+    background-color: #e0e0e0;
+    margin: 5px;
+    padding:2px 8px 2px 8px;
+}
+#text{
+    width: 190px;
+    height: 40px;
+}
+#addbutton{
+    width: 140px;
+    height: 35px;
+}
+#deletbutton{
+    font-size: 24px;
+    font-weight: bolder;
+    color: #fff;
+    background-color: #e0e0e0;
+    width: 25px;
+    height: 25px;
+    border: none;
+    float: right;
+}
