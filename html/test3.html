@@ -53,7 +53,7 @@
         context.fill();
     }
 
-    //刮开面积到达50%，自动去除遮罩层-封装函数
+    //刮开面积到达85%，自动去除遮罩层-封装函数
     function upup(){
         var imgData = context.getImageData(0,0,230,70);
 	    var arrp = [];
@@ -64,8 +64,8 @@
 		    }
 	    }
         per=(arrp.length/(imgData.data.length/4)*100).toFixed(2);
-	    console.log(per+'%');
-		if(per>50) {
+	    //console.log(per+'%');
+		if(per>85) {
 			context.clearRect(0,0,230,70);
 		}
     }
