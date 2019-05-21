@@ -17,9 +17,9 @@
         img{
             width: 350px;
             height: 250px;
-            opacity: 1;
+            /* opacity: 1; */
             transform: scale(1);
-            transition: opacity 500ms linear;
+            /* transition: opacity 500ms linear; */
             transition: transform 500ms linear;
         }
         .yuan{
@@ -101,12 +101,23 @@
         }
         .big:hover .img img{
             transform: scale(1.5);
-            opacity: 0.6;
+            /* opacity: 0.6; */
         }
         .img{
             width: 350px;
             height: 250px;
             overflow: hidden;
+        }
+        .img div{
+            width: 350px;
+            height: 250px;
+            position:absolute;
+            top:0px;
+        }
+        .big:hover .img div{
+            background-color:rgb(83, 82, 82);
+            opacity: 0.4;
+            
         }
     </style>
 </head>
@@ -114,6 +125,7 @@
     <div class="big">
         <div class="img">
             <img src="images/zhanqiao.jpg" alt="zhanqiao.jpg"/>
+            <div></div>
         </div>
         <div class="yuan">
             15<br/>5月
