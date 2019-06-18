@@ -1,0 +1,10 @@
+header{
+    width: 100%; 
+}
+#header-div{
+    height: 50px;
+    background-color: black;
+}
+#header-nav{
+    top:50px;
+}
